@@ -8,8 +8,7 @@
 
 ## 🔨라이브러리 및 플러그인
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>
-<img src="https://img.shields.io/badge/PostCSS-DD03A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <img src="https://img.shields.io/badge/uuid-black?style=for-the-badge">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>  <img src="https://img.shields.io/badge/PostCSS-DD03A0A?style=for-the-badge&logo=PostCSS&logoColor=white">   <img src="https://img.shields.io/badge/uuid-black?style=for-the-badge">
 
 <br/>
 
@@ -30,6 +29,8 @@
    <br/>
 
 ## 📺시연 영상
+
+![todo](https://user-images.githubusercontent.com/105909450/224913351-b4524310-b780-4593-ac44-e9d1c9ae364a.gif)
 
   <br/>
 

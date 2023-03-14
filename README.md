@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Youtube Clone Coding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✍목적
 
-## Available Scripts
+> 🧾 기본적인 React 앱을 만들어 보기위해 드림코딩의 TODO앱 만들기 프로젝트를 클론코딩했습니다.
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+## 🔨라이브러리 및 플러그인
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/PostCSS-DD03A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <img src="https://img.shields.io/badge/uuid-black?style=for-the-badge">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## 🚀기능
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 아이템 추가하기
 
-### `npm run build`
+2. 아이템 삭제하기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. 아이템 체크박스 효과
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. 아이템을 속성에 따라 필터링
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. 다크 모드 지원
 
-### `npm run eject`
+6. 로컬 스토리지에 다크모드 저장
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   <br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📺시연 영상
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📘배운 점
 
-## Learn More
+-
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-
 
-### Code Splitting
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚩어려웠던 부분
 
-### Analyzing the Bundle Size
+-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>
 
-### Making a Progressive Web App
+- comments.map() 부분에서 TypeError: Cannot read property 'map' of undefined 발생
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  - 원인 : 첫 렌더링이 실행될 때 commnets 데이터 값이 없기 때문에 undefined이 반환
 
-### Advanced Configuration
+  - 해결방법:  
+    'comments &&' 을 추가하여 데이터를 받아왔을 때만 실행되도록 한다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
